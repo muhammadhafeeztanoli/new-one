@@ -1,0 +1,14 @@
+.title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .title-mob {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .categories-card-mob {
+    border-bottom: 1px solid gray;
+    padding: 5px 5px 5px 0px;
+  }

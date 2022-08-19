@@ -1,0 +1,92 @@
+@import '~antd/dist/antd.css';
+
+.ant-page-header {
+  background-color: #131921;
+}
+
+.ant-page-header-heading{
+  display: flex;
+  justify-content: left;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.searchBar {
+  margin-top: 5px;
+  width: calc(100vw - 550px);
+}
+
+.searchBar-mob {
+  width: 40vw;
+  margin-top: 4px;
+  margin-left: 0px;
+}
+
+.ant-input-search-button{
+  background-color: #383a47;
+  border-color: #fbfafd;
+  border: solid 2px #fbfafd;
+}
+
+.ant-input-search-button:hover{
+  background-color: #4c7081;
+  border-color: #fbfafd;
+  cursor: pointer;
+}
+
+.login{
+  padding: 3px 30px;
+  font-weight: bold;
+  background-color: #383a47;
+  border-color: #fbfafd;
+  border: solid 2px #fbfafd;
+  color: white;
+}
+
+.login-btn-mob{
+  background-color: #383a47 ;
+  border-color: #fbfafd;
+  
+  color: white;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.login:hover{
+  background-color: #4c7081;
+  border: solid 2px #fbfafd;
+  color: white;
+}
+
+.login:focus{
+  background-color: #4c7081;
+  border: solid 2px white;
+  color: white;
+}
+
+.login-mob:focus{
+  background-color: #4c7081;
+  border: solid 2px white;
+  color: white;
+}
+
+.collapsible .collapsible-content {
+  padding: 10px;
+}
+
+.collapsible .header {
+  background-color:#383a47;
+  text-align: center;
+  font-size: large;
+  padding: 5px 0px 5px 0px;
+}
+
+.collapsible-btn {
+  margin: 2% 0 0 3%;
+  font-weight: bold;
+  background-color: #383a47 ;
+  border-color: #383a47;
+  border: solid 2px #383a47;
+  color: white;
+}

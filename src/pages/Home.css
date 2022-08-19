@@ -1,0 +1,138 @@
+.link {
+  font-size: 18px;
+  margin-left: 40%;
+}
+.link-mob {
+  font-size: 18px;
+  margin-left: 36%;
+}
+.link:hover {
+  color: #414b5a;
+  text-decoration: underline;
+}
+
+
+.carousel {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.carousel-img {
+  min-width: 100vw;
+  height: 600px;
+  object-fit: cover;
+}
+
+.carousel-img-mob {
+  height: 250px;
+  width: 40vw;
+  object-fit: cover;
+}
+
+.card {
+  width:450px;
+  height:530px;
+  background-color: #fbfbfd !important;
+}
+
+.card img{
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.card-mob {
+  width:450px;
+  height:400px;
+}
+
+.single-card {
+  width:98.5%;
+  height:450px;
+}
+
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.card-content-mob {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.single-card-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 300px;
+}
+
+.card-category {
+  width: 50%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  top: 900px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100vw;
+  gap: 15px; 
+
+}
+
+.cards-mob {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  top: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100vw;
+  gap: 15px; 
+
+}
+
+.results-header {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 10px #ddd;
+  font-size: 16px;
+  padding: 10px 25px;
+  font-weight: 500;
+} 
+
+.category {
+  color: #FF9900;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.link-mob{
+  display: block;
+  justify-content: center;  
+}
